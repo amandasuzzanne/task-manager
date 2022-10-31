@@ -21,11 +21,6 @@ function Home() {
                         <td>02-06-2022</td>
                         <td>02-06-2022</td>                    
                     </tr>
-                    <tr>
-                        <td>Name</td>
-                        <td>02-06-2022</td>
-                        <td>02-06-2022</td>                    
-                    </tr>
                 </tbody>
             </Table>
         </div>
@@ -45,11 +40,6 @@ function Home() {
                         <td>02-06-2022</td>
                         <td>02-06-2022</td>                    
                     </tr>
-                    <tr>
-                        <td>Name</td>
-                        <td>02-06-2022</td>
-                        <td>02-06-2022</td>
-                    </tr>
                 </tbody>
             </Table>
         </div>
@@ -68,11 +58,6 @@ function Home() {
                         <td>Name</td>
                         <td>02-06-2022</td>
                         <td>02-06-2022</td>                    
-                    </tr>
-                    <tr>
-                        <td>Name</td>
-                        <td>02-06-2022</td>
-                        <td>02-06-2022</td>
                     </tr>
                 </tbody>
             </Table>
