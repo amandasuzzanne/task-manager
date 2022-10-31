@@ -1,23 +1,38 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Form, Button } from 'react-bootstrap'
 import {Link} from "react-router-dom";
 
-function Login() {
+const Login = ({submit}) => {
+    const [values, setValues] = useState({
+        username: '',
+        password: '',
+    })
+
+    const handleChange = (event) => {
+        setValues({
+            ...values,
+            [event.target.id]: event.target.value,
+        });
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        submit(values)
+    }
+
   return (
     <div className='login'>
         <h1 className='h1-login'>Task Manager</h1>
         <div>
-            <form action="" method="post">
-                
-            </form>
+            <form action="" method="post" onSubmit={handleSubmit}></form>
         </div>
         <div className='login-form'>
             <Form>
                 <Form.Group className="mb-4" controlId="formBasicText">
-                    <Form.Control type="text" placeholder="Username" />
+                    <Form.Control type="text" placeholder="Username" id="username" onChange={handleChange} value={values.username}/>
                 </Form.Group>
                 <Form.Group className="mb-4" controlId="formBasicPassword">
-                    <Form.Control type="password" placeholder="Password" />
+                    <Form.Control type="password" placeholder="Password" id="password" onChange={handleChange} value={values.password}/>
                 </Form.Group>
             </Form>
         </div>
