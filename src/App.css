@@ -1,14 +1,93 @@
-.App {
-  text-align: center;
+.App{
+  background-color: #eaecf1;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 0px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Signup*/
+.signup {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+
+.reg-back {
+  margin-left: -95%;
+  margin-top: 1%;
+}
+
+.h1-signup {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+
+/*Login Page*/
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1-login {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+/*Navigation Bar*/
+.navbar {
+  background-color:rgb(75, 72, 72);
+  margin-right: 80%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar-menus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+
+}
+
+
+/*Home page*/
+.home {
+  margin-left: 22%;
+  margin-right: 2%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.home-table2, .home-table3 {
+  margin-top: 2%;
+}
+
+
+/*Manage tasks*/
+.manage {
+  margin-left: 22%;
+  margin-right: 2%;
+}
+
+.addtask-button {
+  margin-left: 89.8%;
+}
+
+
+/*Project Summary*/
+.summary {
+  margin-left: 22%;
+  margin-right: 2%;
+}
+
+h1 {
+  text-align: center;
+}
+
+ 
