@@ -6,7 +6,7 @@ function Home() {
     <div className='home'>
     <h1>HOME</h1>
         <div className='home-table'> 
-        <h4>Current Projects</h4>
+        <h4>Current Tasks</h4>
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
@@ -25,7 +25,7 @@ function Home() {
             </Table>
         </div>
         <div className='home-table2'>
-        <h4>Completed Projects</h4>
+        <h4>Completed Tasks</h4>
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
@@ -44,7 +44,7 @@ function Home() {
             </Table>
         </div>
         <div className='home-table3'>
-        <h4>Suspended Projects</h4>
+        <h4>Suspended Tasks</h4>
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
