@@ -10,7 +10,7 @@ function Home() {
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
-                        <th>Project Name</th>
+                        <th>Name</th>
                         <th>Start Date</th>
                         <th>End Date</th>
                     </tr>
@@ -29,7 +29,7 @@ function Home() {
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
-                        <th>Project Name</th>
+                        <th>Name</th>
                         <th>Start Date</th>
                         <th>End Date</th>
                     </tr>
@@ -48,7 +48,7 @@ function Home() {
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
-                        <th>Project Name</th>
+                        <th>Name</th>
                         <th>Start Date</th>
                         <th>End Date</th>
                     </tr>
